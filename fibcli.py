@@ -2,6 +2,7 @@
 
 import socket
 import sys
+import struct
 
 
 if len(sys.argv) != 2:
@@ -30,3 +31,4 @@ try:
         print(x);
 finally:
     sock.close();
+
