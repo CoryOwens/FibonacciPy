@@ -6,7 +6,7 @@ Simple Python project for a client/server setup which calculates Fibonacci numbe
 
 Just check out the git repository:
 
-    $ git checkout https://github.com/CoryOwens/FibonacciPy
+    $ git clone https://github.com/CoryOwens/FibonacciPy
 
 ## Running 
 
