@@ -15,7 +15,10 @@ if len(sys.argv) != 2:
 try:
     n = int(sys.argv[1]);
 except ValueError:
-    print('Invalid number: n must be an integer.');
+    print('Invalid number: n must be a non-negative integer.');
+    sys.exit(-1);
+if n < 0:
+    print('Invalid number: n must be a non-negative integer.');
     sys.exit(-1);
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM);
